@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Drag & Drop File Uploader</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Color Thief -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/color-thief/2.3.2/color-thief.umd.js"></script>
+</head>
+<body>
+
+  <h2 class="title">Drag & Drop File Uploader</h2>
+
+  <!-- Drop Area -->
+  <div id="drop-area">
+    <p>Drag & Drop Image Here</p>
+    <span>OR</span>
+    <input type="file" id="file-input" accept="image/*">
+  </div>
+
+  <!-- Preview -->
+  <div class="preview-container">
+    <img id="preview" src="" alt="">
+  </div>
+
+  <!-- Progress Bar -->
+  <div class="progress-box">
+    <div id="progress-bar"></div>
+  </div>
+
+  <p class="error" id="error-msg"></p>
+
+  <script src="script.js"></script>
+</body>
+</html>
